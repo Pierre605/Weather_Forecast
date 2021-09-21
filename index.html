@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Weather Forecast</title>
+</head>
+<body>
+    <form id="city-form">
+        <h1>App Météo</h1>
+        <input type="text" id="city-name" placeholder="Nom de lieu" onfocus="this.value=''">
+        <select id="nb-days">
+            <option value="">Plages de prévisions</option>
+            <option value=0>Aujourd'hui</option>
+            <option value=1>+ demain</option>
+            <option value=2>+ 2 jours</option>
+            <option value=3>+ 3 jours</option>
+            <option value=4>+ 4 jours</option>
+            <option value=5>+ 5 jours</option>
+            <option value=6>+ 6 jours</option>
+            <option value=7>+ 7 jours</option>
+        </select>
+        <button type="submit" class="btn btn-light">Envoyer</button>
+    </form>
+    <div class="weather">
+    </div>
+    <!-- Fichiers JS -->
+    <script src="app.js"></script>
+</body>
+</html>	
