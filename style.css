@@ -1,0 +1,43 @@
+#city-name {
+    margin-right: 10px;
+}
+
+#city-form {
+    text-align: center;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgb(108, 174, 218), white);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nightBackground {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgb(2, 2, 46), rgb(15, 15, 226));
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.weather {
+    text-align: center;
+    display: table;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3em;
+}
+
+#picto {
+    width: 150px;
+    margin-top: -3em;
+}
+
+.bySide {
+    display: table-row;
+}
+
+.cell {
+    display: table-cell;
+}
